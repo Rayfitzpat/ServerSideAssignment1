@@ -12,13 +12,15 @@
     <title>Display User</title>
 </head>
 <body>
-    Owner: <c:if test="${myHouse.owner == ''}">
-                <c:out value = "Owner Unknown" />
-            </c:if>
+    Owner:
+        <c:if test="${myHouse.owner == ''}">
+            <c:out value = "Owner Unknown?" />
+        </c:if>
 
-            <c:if test="${myHouse.owner != ''}">
-                <c:out value = "${myHouse.owner}" />
-            </c:if>
+        <c:if test="${myHouse.owner != ''}">
+            <c:out value = "${myHouse.owner}" />
+        </c:if>
+
 <br>
 Address: <c:if test="${myHouse.address == ''}">
             <c:out value = "Address Unknown" />

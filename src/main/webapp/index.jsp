@@ -8,9 +8,7 @@
 <body>
 <h1><%= "Please enter the house details"%>
 </h1>
-
 <br/>
-
 <form method="post" action="ShowHouseServlet">
     <table>
         <tr>
@@ -35,7 +33,6 @@
     </table>
 </form>
 
-
 <form method="post" action="ListHouseServlet">
     <table>
         <tr>
@@ -43,7 +40,5 @@
         </tr>
     </table>
 </form>
-
-
 </body>
 </html>
